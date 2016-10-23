@@ -27,6 +27,16 @@ Configuration
 -------------
 
 ```json
+{
+    "backend": "Navel::Collector::Twitter::Stream::Track",
+    "backend_input": {
+        "token": "NPcudxy0yU5T3tBzho7iCotZ3cnetKwcTIRlX0iwRl0",
+        "token_secret": "veNRnAWe6inFuo8o2u8SLLZLjolYDmDP7SzL0YfYI",
+        "consumer_key": "cChZNFj6T5R0TigYB9yd1w",
+        "consumer_secret": "Fuo8o2u8SLLZLjolYDmDP7Sz",
+        "track": "Debian,Angular"
+    }
+}
 ```
 
 Copyright
