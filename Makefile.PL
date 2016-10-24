@@ -33,7 +33,8 @@ WriteMakefile(
     PREREQ_PM => {
         'Navel::Base' => 0,
         'Navel::Logger' => 0,
-        'AnyEvent::Twitter::Stream' => 0
+        'AnyEvent::Twitter::Stream' => 0,
+        'Net::OAuth' => 0
     },
     CONFIGURE_REQUIRES => {
         'ExtUtils::MakeMaker' => 6.64
