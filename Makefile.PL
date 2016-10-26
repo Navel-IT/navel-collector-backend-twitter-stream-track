@@ -34,6 +34,7 @@ WriteMakefile(
         'Navel::Base' => 0,
         'Navel::Logger' => 0,
         'AnyEvent::Twitter::Stream' => 0,
+        'JSON::XS' => 0,
         'Net::OAuth' => 0
     },
     CONFIGURE_REQUIRES => {
