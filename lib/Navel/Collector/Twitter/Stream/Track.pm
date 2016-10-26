@@ -20,8 +20,6 @@ my $watcher;
 #-> methods
 
 sub new_watcher {
-    my $self = __SUB__;
-
     $watcher = AnyEvent::Twitter::Stream->new(
         token => W::collector()->{backend_input}->{token},
         token_secret => W::collector()->{backend_input}->{token_secret},
