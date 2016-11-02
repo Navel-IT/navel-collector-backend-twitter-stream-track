@@ -5,7 +5,7 @@
 
 #-> initialization
 
-package Navel::Collector::Twitter::Stream::Track;
+package Navel::Collector::Twitter::Stream::Track 0.1;
 
 use Navel::Base;
 
