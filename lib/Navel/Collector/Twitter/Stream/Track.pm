@@ -9,6 +9,8 @@ package Navel::Collector::Twitter::Stream::Track;
 
 use Navel::Base;
 
+use constant EVENT_CLASS => 'tweet';
+
 use AnyEvent::Twitter::Stream;
 
 use Navel::Logger::Message;
