@@ -19,7 +19,7 @@ use Navel::Logger::Message;
 
 my $watcher;
 
-#-> methods
+#-> functions
 
 sub new_watcher {
     $watcher = AnyEvent::Twitter::Stream->new(
@@ -84,10 +84,6 @@ sub disable {
 
     shift->(1);
 }
-
-# sub AUTOLOAD {}
-
-# sub DESTROY {}
 
 1;
 
