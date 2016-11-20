@@ -54,14 +54,17 @@ sub new_watcher {
         on_tweet => sub {
             my $tweet = shift;
 
+            my $source = 'http://twitter.com/#' . $tweet->{user}->{screen_name} . '/status/' . $tweet->{id};
+
             W::queue()->enqueue(
                 W::event(
+                    $source,
                     {
                         message => $tweet->{full_text},
                         user => $tweet->{user}->{screen_name},
                         client => $tweet->{source},
                         retweeted => $tweet->{retweeted},
-                        source => 'http://twitter.com/#' . $tweet->{user}->{screen_name} . '/status/' . $tweet->{id}
+                        source => $source
                     }
                 )
             );
