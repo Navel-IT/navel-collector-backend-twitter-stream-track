@@ -58,8 +58,8 @@ sub new_watcher {
 
             W::queue()->enqueue(
                 W::event(
-                    $source,
-                    {
+                    id => $source,
+                    data => {
                         message => $tweet->{full_text},
                         user => $tweet->{user}->{screen_name},
                         client => $tweet->{source},
