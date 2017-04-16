@@ -1,5 +1,5 @@
 # Copyright (C) 2015-2017 Yoann Le Garff, Nicolas Boquet and Yann Le Bras
-# navel-collector-twitter-stream-track is licensed under the Apache License, Version 2.0
+# navel-collector-backend-twitter-stream-track is licensed under the Apache License, Version 2.0
 
 #-> BEGIN
 
@@ -11,7 +11,7 @@ use warnings;
 use Test::More tests => 1;
 
 BEGIN {
-    use_ok('Navel::Collector::Twitter::Stream::Track');
+    use_ok('Navel::Collector::Backend::Twitter::Stream::Track');
 }
 
 #-> main

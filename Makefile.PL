@@ -1,5 +1,5 @@
 # Copyright (C) 2015-2017 Yoann Le Garff, Nicolas Boquet and Yann Le Bras
-# navel-collector-twitter-stream-track is licensed under the Apache License, Version 2.0
+# navel-collector-backend-twitter-stream-track is licensed under the Apache License, Version 2.0
 
 #-> BEGIN
 
@@ -7,7 +7,7 @@
 
 use strict;
 use warnings;
-
+²
 use ExtUtils::MakeMaker;
 
 #-> main
@@ -15,9 +15,9 @@ use ExtUtils::MakeMaker;
 my $min_perl_version = '5.18.0';
 
 WriteMakefile(
-    NAME => 'Navel::Collector::Twitter::Stream::Track',
-    VERSION_FROM => 'lib/Navel/Collector/Twitter/Stream/Track.pm',
-    ABSTRACT => 'navel-collector-twitter-stream-track',
+    NAME => 'Navel::Collector::Backend::Twitter::Stream::Track',
+    VERSION_FROM => 'lib/Navel/Collector/Backend/Twitter/Stream/Track.pm',
+    ABSTRACT => 'navel-collector-backend-twitter-stream-track',
     AUTHOR => 'Yoann Le Garff, Nicolas Boquet and Yann Le Bras',
     LICENSE => 'apache_2_0',
     META_MERGE => {
@@ -26,7 +26,7 @@ WriteMakefile(
         },
         resources => {
             license => 'http://www.apache.org/licenses/LICENSE-2.0.html',
-            repository => 'http://github.com/Navel-IT/navel-collector-twitter-stream-track'
+            repository => 'http://github.com/Navel-IT/navel-collector-backend-twitter-stream-track'
         }
     },
     MIN_PERL_VERSION => $min_perl_version,
