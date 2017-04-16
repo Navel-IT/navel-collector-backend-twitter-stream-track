@@ -7,7 +7,7 @@
 
 use strict;
 use warnings;
-²
+
 use ExtUtils::MakeMaker;
 
 #-> main
